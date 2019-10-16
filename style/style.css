@@ -1,0 +1,100 @@
+.block {
+  width: 100%;
+  max-width: 92%;
+  margin: 0 4%;
+  font-family: "Segoe UI", sans-serif;
+  color: #494848;
+  line-height: 1.6; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
+p, h2 {
+  margin-bottom: 4%; }
+
+p {
+  text-align: justify; }
+
+img {
+  transition: opacity .2s linear; }
+
+img:hover {
+  opacity: 0.8; }
+
+.header {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  display: inline-block;
+  background-image: url("../photo/IMG_5287.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 485px;
+  color: white; }
+
+.header__name {
+  font-size: 45px;
+  color: rgba(255, 255, 255, 0.969);
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 130px;
+  text-shadow: 0px 6px 0px #494848; }
+
+.header__text {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.969);
+  text-align: center; }
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap; }
+
+@media only screen and (max-width: 1000px) {
+  .info {
+    justify-content: center; } }
+.myPhoto, .myLerning {
+  margin: 2%; }
+
+a {
+  color: #494848; }
+
+a:hover {
+  color: #421a49; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  background-color: #1b2024;
+  color: #ffffff; }
+  .footer a {
+    color: #ffffff; }
+
+.call, .write, .comeIn {
+  margin-top: 4%;
+  margin-bottom: 4%; }
+
+.call {
+  margin-left: 6%;
+  text-align: left; }
+
+.write {
+  margin-right: 2%; }
+
+.comeIn {
+  margin-right: 6%;
+  text-align: right; }
+
+.footer__net {
+  margin: 10px; }
+
+/*# sourceMappingURL=style.css.map */
